@@ -1,5 +1,6 @@
 const products = [
-    {
+    { 
+      id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c231" ,
       image : 'images/products/Fire-Boltt Ninja Call Pro Plus 1.83. jpg.jpg',
       name : 'Fire-Boltt Ninja Call Pro Plus 1.83" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Blue)',
       rating :{
