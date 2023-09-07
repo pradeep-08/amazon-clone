@@ -1,5 +1,6 @@
   import { cart , updatingCart } from "../script/cart.js";
   import { products } from "../data/products.js";
+  import { updateMoneyInCents } from "./utils/money.js";
   
   let productHtml = '';
         products.forEach((products) => {
@@ -22,7 +23,7 @@
                     </div>
 
                     <div class="product-price">
-                    ₹${(products.priceCents / 100).toFixed(2)}
+                    ₹${updateMoneyInCents(products.priceCents)}
                     </div>
 
                     <div class="product-quantity-container">
