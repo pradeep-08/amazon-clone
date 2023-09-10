@@ -13,12 +13,9 @@
            quantity : 5
        }
     ];
-   
  }
  
  
-
-
     function saveDataToStorage(){
         localStorage.setItem('cart' , JSON.stringify(cart));
     }
@@ -41,8 +38,6 @@
         saveDataToStorage()
      
 }
-
-
 
   export function deleteCart (productId){
         const newArray = []; 
